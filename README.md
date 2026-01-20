@@ -2,29 +2,27 @@
 This repository is a hands-on implementation and extension of the MYDFIR Cybersecurity Project: Active Directory 2.0, originally published on YouTube. It focuses on building a secure, functional Active Directory lab environment for blue team training.
 
 ## Objective
-- Deploy a realistic Windows-based Active Directory lab on the Vultr cloud network
-- Simulate enterprise-grade user accounts, groups, and policies
-- Practice detection techniques
+- Deploy a realistic Windows-based Active Directory environment on the Vultr cloud network.
+- Detect unauthorized login with splunk.
+- Automate responses using shuffle as our SOAR platform.
 
 
 ### Skills Learned
-
-
 - Advanced understanding of SIEM concepts and practical application.
-- Enhanced knowledge of network protocols and security vulnerabilities.
 - Development of critical thinking and problem-solving skills in cybersecurity.
 
 ### Tools Used
 
 - Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Vultr cloud plateform
+- Shuffle as our SOAR platform.
+- Window Server 2022 to host our Active Directory Domain Controller 
+- Umbuntu Server 22.04 used as our splunk server
+- Slack and email address to get notificatians
+  
+
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
-
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
+1. First need to create a need to create our environment inside of Active Directory in side of Vultr. 
 
 *Ref 1: Network Diagram*
